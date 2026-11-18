@@ -25,8 +25,12 @@ SECRET_KEY = 'django-insecure-f-_64-g7e#bd@cs64=mkl%#g9)3(ln%%@!t3&v1tnd1_9y+py%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    'piloto-amber.vercel.app',
+    '.vercel.app',
+    'localhost',
+    '127.0.0.1',
+]
 
 # Application definition
 
